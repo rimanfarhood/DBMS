@@ -6,7 +6,6 @@ db = create_engine("postgresql:///chinook")
 
 meta = MetaData(db)
 
-SQLALCHEMY_WARN_20=1
 
 # create variable for "Artist" table
 artist_table = Table(
